@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pᴏʀᴛғᴏʟɪᴏ - Jʜᴀʟᴋᴇsʜ Pᴀᴛʜᴀᴋ</title>
+    <link rel = "icon" href = "logo-removebg-preview.png"
+        type = "image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .nav-bar {
+            background-color: rgb(29, 2, 48);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn {
+            color: aliceblue;
+            font-variant: all-small-caps;
+            font-size: large;
+            padding: 3px 5px;
+            margin: 0px 5px;
+        }
+
+        .bar,
+        .links {
+            display: flex;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .bar {
+            margin: 8px 0px;
+            margin-right: 20px;
+        }
+
+        .btn:hover {
+            color: rgb(29, 2, 48);
+            background-color: aliceblue;
+        }
+
+        .burg {
+            height: 4px;
+            margin: 4px;
+            background-color: white;
+            width: 30px;
+        }
+
+        .mob-nav {
+            display: none;
+        }
+
+        .mob-head {
+            color: aliceblue;
+            font-variant: all-small-caps;
+            font-size: x-large;
+            display: flex;
+
+        }
+        
+        .logo img{
+            height: 1.25em;
+            margin-left: 10px;
+        }
+        @media only screen and (max-width:768px) {
+            .mob-head{
+                display: none;
+            }
+
+            .nav-bar {
+                justify-content: center;
+            }
+        }
+
+        @media only screen and (max-width:600px) {
+            .links {
+                display: none;
+            }
+
+            .mob-nav {
+                display: block;
+            }
+
+            .nav-bar {
+                justify-content: space-between;
+            }
+
+            .bar {
+                margin-right: 10px;
+            }
+
+            .mob-head {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <div class="nav-bar">
+            <div class="mob-head">
+                <div class="logo">
+                    <img src="logo-removebg-preview11-removebg-preview.png" alt="">
+                </div>
+                <p style="margin: 3px 0px 5px 10px;">Jhalkesh Pathak</p>
+            </div>
+            <div class="bar">
+
+                <ul class="links">
+                    <li class="btn">About</li>
+                    <li class="btn">Education</li>
+                    <li class="btn">Projects</li>
+                    <li class="btn">Internships</li>
+                    <li class="btn">Contact</li>
+                </ul>
+                <div class="mob-nav">
+                    <div class="burg"></div>
+                    <div class="burg"></div>
+                    <div class="burg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+
+</html>
